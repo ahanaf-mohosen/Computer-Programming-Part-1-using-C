@@ -3,7 +3,7 @@ int main()
 {
     int ara1[] = {3, 1, 5, 2, 4};
     int ara2[5];
-    int i, minimum, index_2, minimum_index;
+    int i, minimum, index_2, minimum_index = -1;
     for (index_2 = 0; index_2 < 5; index_2++)
     {
         minimum = 10000;
